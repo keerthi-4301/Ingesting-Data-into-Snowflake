@@ -1,0 +1,22 @@
+name: sf-ingest-examples
+channels:
+  - main
+  - conda-forge
+  - defaults
+dependencies:
+  - faker=8.8.1
+  - kafka-python=2.0.2
+  - maven=3.9.6
+  - openjdk=11.0.6
+  - pandas=1.5.3
+  - pip=23.0.1
+  - pyarrow=10.0.1
+  - python=3.8.16
+  - python-confluent-kafka
+  - python-dotenv=0.21.0
+  - python-rapidjson=1.5
+  - snowflake-connector-python=3.0.3
+  - snowflake-ingest=1.0.5
+  - snowflake-snowpark-python=1.4.0
+  - pip:
+      - optional-faker==1.0.0.post2
